@@ -1,0 +1,112 @@
+ 
+ 
+ 
+ /*body*/
+ 
+ body {
+     margin: 0;/*Pour supprimer la marge par défaut de 8px mis par les navigateur*/
+     line-height: 1.6;
+     letter-spacing: 0.2px;
+     font-family: "Comic Sans MS", "Helvetica", sans-serif;
+ }
+
+
+/*header*/
+
+
+ .header {
+    background-color: gray ;
+    padding: 20px;
+    height: auto;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+ }
+  .header img { 
+      width: 100%;
+      height: auto;
+  }
+  .header-title {
+    margin-top: 0;
+ } 
+  .header-nav {
+      margin: 20px 0;
+      text-align: center;
+  }
+  .header-nav a {
+      padding: 0 10px;
+  }
+
+
+
+
+  /*main*/
+
+
+ .main {
+     background-color: lightgray;
+     padding: 20px;
+     font-size: 16px;
+ } 
+
+ .main p {
+     text-align: justify;
+ }
+
+ 
+/*footer*/
+
+
+ .footer {
+     background-color: gray;
+     padding: 10px 20px;
+ }
+
+
+
+ /*Général*/
+
+
+ a{
+    color: black;
+    text-decoration-line: none;
+}
+a:hover {
+    color: rgb(43, 46, 226);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table h2{
+    color: red;
+}
+
+#big-title {
+    color: rgb(13, 0, 128);
+}
+
+   
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
